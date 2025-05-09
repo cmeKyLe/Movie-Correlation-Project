@@ -1,54 +1,30 @@
-# Movie-Correlation-Project
- Data analysis project exploring correlations in a movie dataset using Python. Focused on uncovering relationships between budget, revenue, ratings, and popularity through data cleaning, transformation, and visualization.
+# 📊 Data Analysis Project – Python
+Author: Khant Min Thaw
+Project Type: Data Cleaning, Exploratory Data Analysis (EDA), Correlation Study
+Status: Completed
 
 
-## 📌 Project Overview
+# 🧭 Overview
+This project explores the relationships between various attributes in a dataset of movies, such as budget, gross revenue, and ratings. The analysis was conducted using Python to clean the data, perform exploratory analysis, and visualize correlations between key variables. The goal was to uncover patterns and insights that might inform decisions in the film industry or similar domains.
 
-This project explores a dataset of movies to uncover relationships between various features—such as budget, revenue, ratings, and viewer engagement—through data cleaning, transformation, and statistical correlation analysis. The goal is to identify which attributes most strongly influence a movie's financial success.
 
-The project was conducted using **Python**, with key libraries including **pandas**, **seaborn**, **matplotlib**, and **NumPy**, and is designed for reproducibility within a Jupyter Notebook environment.
+# 📌 Project Objectives
+- Import, inspect, and understand a real-world movie dataset.
+- Clean and prepare the data for accurate analysis.
+- Identify missing values, handle data types, and remove irrelevant entries.
+- Perform correlation analysis to understand relationships between variables.
+- Visualize key insights using scatter plots and heatmaps.
 
----
+# 🛠️ Tools & Libraries
+- Python 3.x
+- Pandas – for data manipulation
+- NumPy – for numerical calculations
+- Matplotlib & Seaborn – for visualization
+- Jupyter Notebook – for interactive development
 
-## 🔍 Key Objectives
-
-- Clean and preprocess raw movie data for analysis
-- Handle missing and inconsistent values across columns
-- Extract and correct release year from date strings
-- Convert categorical variables to numerical codes for analysis
-- Generate a correlation matrix to identify relationships between features
-- Visualize findings using heatmaps and regression plots
-
----
-
-## 🧹 Data Cleaning Highlights
-
-- Removed rows with missing values in critical columns (e.g., `budget`, `gross`)
-- Standardized the `year` column by extracting values from full `released` dates
-- Converted categorical columns (`genre`, `company`, etc.) into numerical representations using pandas' `category` codes
-
----
-
-## 📊 Analytical Insights
-
-- A **strong positive correlation** (~0.74) was found between **budget** and **gross revenue**, highlighting the predictive value of production investment.
-- **Votes** (viewer engagement) also showed a notable correlation with revenue.
-- Most categorical attributes had weaker correlations, though they may still play supporting roles when combined with numeric features.
-- These insights lay the groundwork for future predictive modeling (e.g., regression or machine learning).
-
----
-
-## 🛠 Tools & Technologies
-
-- **Python 3.x**
-- **Pandas** for data manipulation
-- **Seaborn & Matplotlib** for visualizations
-- **Jupyter Notebook** for iterative analysis and presentation
-
----
-
-## 📁 Project Structure
-
-- `Movie Correlation Project.ipynb`: Main Jupyter notebook with code, visuals, and narrative
-- `movies.csv`: The dataset used for analysis (not included for licensing reasons)
-- `README.md`: Project overview and explanation
+# 🧠 What I Learned
+- Through this project, I strengthened my foundational data analysis skills and learned several key practices:
+- **Data Cleaning Is Critical**: Cleaning data is a necessary first step to avoid misinterpretation. I ensured that all values were consistent and relevant before moving forward.
+- **Identifying Missing Values & Code Validation**: I used built-in methods to locate missing data and ensured the analysis code was reliable and reproducible.
+- **Understanding the Data and the Goal**: Taking time to understand the structure and context of the dataset helped me make informed decisions during the analysis.
+- **Recognizing Patterns**: By analyzing correlations, I was able to identify significant relationships, such as how a movie’s budget tends to relate to its gross revenue.
